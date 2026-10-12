@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#285d48">
+  <meta name="description" content="肤词：个人皮肤科英语词卡。15个新词，45个复习词，先回忆再看释义，进度自动保存在当前浏览器。">
+  <title>肤词 · 皮肤科英语词卡</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <input id="import-file" type="file" accept=".json,application/json" hidden>
+  <noscript>请启用浏览器 JavaScript，以使用词卡和自动进度保存。</noscript>
+</body>
+</html>
