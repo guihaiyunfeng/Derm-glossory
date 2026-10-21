@@ -15,3 +15,29 @@
 /* 小号说明文字也保持足够清晰。 */
 .page-heading p,.metric-label,.metric-detail,.plan-note,.plan-foot,.activity-note,.section-footnote,.recall-hint,.word-source,.word-label,.keyboard-hint,.focus-top-note,.session-meta,.results-count,.results-count span,.table-meaning,.rule p,.backup-panel>p,.privacy-panel p,.source-panel p,.empty-state p,.history-date>span,.history-count>span,.detail-grid span,.detail-empty,.fine-print,.backup-panel>p.fine-print,.progress-legend p,.result-wrap>p,.missed-panel>p,.missed-word span:last-child{color:#72806c}
 .hero-copy p{color:#c1d2b7}.hero-caption{color:#acc4a4}.word-card-bottom{color:#829174}.word-card-bottom .correction{color:#77866b}.table-head{color:#78886c}.status-badge.new{color:#7f8a73}.main-footer{color:#8e9982}.reset-area strong,.reset-area p{color:#89947e}
+
+/* 揭晓后阅读构词提示，沿用原有纸白与鼠尾草绿。 */
+.word-notes{width:100%;min-width:0;text-align:left;margin-top:25px;padding:21px 23px;background:#f7f9f3;border:1px solid #e4ebdd;border-radius:13px;font-size:13px;line-height:1.8;color:#52624e;overflow-wrap:anywhere}
+.word-notes-heading{display:flex;align-items:center;gap:9px;margin-bottom:13px}
+.word-notes-mark{display:grid;place-items:center;width:26px;height:26px;background:#e8efdf;border-radius:7px;color:#517246;font-family:Georgia,"Times New Roman",serif;font-size:14px}
+.word-notes h4,.word-notes h5{margin:0;font-size:13px;line-height:1.7;font-weight:600;letter-spacing:0;color:#3d5f43}
+.term-meanings,.root-parts{margin:0}
+.term-meanings>div,.root-parts>div{display:grid;grid-template-columns:minmax(110px,.9fr) minmax(0,2fr);gap:8px 17px;padding:8px 0;align-items:baseline}
+.term-meanings>div+div{border-top:1px solid #e6ecdf}
+.word-notes dt,.word-notes dd{margin:0;min-width:0}
+.term-meanings dt{color:#344d3b;font-weight:550;font-size:14px}
+.term-note{display:block;margin-top:3px;color:#6c7765;font-size:11px;line-height:1.75}
+.root-section{border-top:1px solid #e0e8d6;margin-top:15px;padding-top:17px}
+.root-word{margin-top:13px}
+.word-notes .root-word h5{font-family:Georgia,"Times New Roman",serif;font-size:16px;font-weight:400;color:#395c42;margin-bottom:5px}
+.root-parts>div{padding:4px 0}
+.root-parts dt{color:#416645;font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:500}
+.roots-caption{font-size:11px;color:#6b7962;line-height:1.85;margin-top:15px}
+.notes-references{margin-top:15px;border-top:1px solid #e6ecdf;padding-top:10px;font-size:11px;color:#6b7962}
+.notes-references summary{cursor:pointer;width:fit-content;min-height:26px;line-height:26px}
+.notes-references summary:focus-visible{outline:3px solid #88b594;outline-offset:3px;border-radius:3px}
+.notes-references ul{padding-left:18px;margin:7px 0 0}
+.notes-references a{text-decoration:underline;text-underline-offset:3px}
+.notes-references a:hover{color:#285d48}
+@media(max-width:650px){.word-notes{margin-top:21px;padding:16px 14px;font-size:12px;border-radius:10px}.word-notes h4{font-size:12px}.term-meanings>div{grid-template-columns:minmax(0,1fr);gap:2px;padding:9px 0}.term-meanings dt{font-size:14px}.term-note{font-size:11px}.root-parts>div{grid-template-columns:minmax(74px,.8fr) minmax(0,2fr);gap:10px;padding:5px 0}.root-parts dt{font-size:14px}.word-notes .root-word h5{font-size:16px}.roots-caption{font-size:11px}.dialog-content .word-notes{padding:15px 13px}}
+@media(max-width:360px){.root-parts>div{grid-template-columns:minmax(65px,.85fr) minmax(0,2fr);gap:8px}}
